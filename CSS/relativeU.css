@@ -1,0 +1,41 @@
+/* % Percentage */
+/* h1{
+    border: 2px solid black;
+    width: 50%;
+}
+#outer {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 10%;
+} */
+/* Em */
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border: 2px solid black;
+    font-size: 20px;
+}
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 2em;
+}
+/* rem */
+/* section{
+font-size=15px;
+}
+div{
+font-size=0.5rem;
+}
+*/
+

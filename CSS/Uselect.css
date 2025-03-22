@@ -1,0 +1,90 @@
+/* Universal selector */
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+/* element selector */
+h1,h3{
+    color: #b92b27;
+}
+/* Id selector */
+#login{
+    background-color: white;
+
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+/* Class selector */
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* Descendant selector */
+.post a{
+    color: greenyellow;
+    background-color: blueviolet;
+}
+nav a{
+    color: aquamarine;
+}
+/* adjacent sibling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: darkblue;
+    color: slateblue;
+}
+/* Child combinator */
+div > input {
+    background-color: chocolate;
+}
+/* Attribute selector */
+input[type="text"] {
+    color: green;
+}
+input[type="password"] {
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/* PracticeQv */
+/* #myid{
+    color: green;
+} */
+div[id="myid"] p {
+    color: green;
+}
+
+/* Psude Class */
+button:hover {
+    background-color: black;
+    color: white;
+}
+button:active {
+    background-color: pink;
+    color: black;
+}
+p:active {
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(3) {
+    background-color: blanchedalmond;
+}
+/* Pseudo Element */
+p::first-line {
+    color: red;
+}
+h1::first-letter {
+    color: black;
+}
+p::selection {
+    background-color: gold;
+}

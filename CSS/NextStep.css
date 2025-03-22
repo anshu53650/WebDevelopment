@@ -1,0 +1,10 @@
+div{
+    height: 300px;
+    width: 400px;
+    /* background-color: rgb(40, 20, 50, 0.5); */
+    background-color: #562345a1;
+}
+#opacity{
+    background-color: #08c925d6;
+    opacity:0.4;
+}
